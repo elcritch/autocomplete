@@ -1,0 +1,25 @@
+match_line: ["FunctionType::", "FunctionType", "", "::", ""]
+Line Input: {:kind=>"::", :parents=>[], :basename=>"FunctionType", :partial=>""}
+reduce_type: varname: 'FunctionType'
+search_ctag: word.inspect 'Allname: ["FunctionType"] Name: FunctionType'
+reduce_type: 'class' genre:'class' 
+retreive_candidates: Trying to retreive namespace candidates...
+retreive_candidates: etag: Ectag Name: FunctionType        kind: class
+collect: parents.split: 'DerivedType'
+coallate: parents.class 'String'
+coallate: parents.inspect '"DerivedType"'
+search_ctag: word.inspect 'Allname: ["DerivedType"] Name: DerivedType'
+search_ctag: word.inspect 'Allname: ["DerivedType"] Name: DerivedType' type:'QualifiedName'
+collect: parents.split: 'Type'
+coallate: parents.class 'String'
+coallate: parents.inspect '"Type"'
+search_ctag: word.inspect 'Allname: ["Type"] Name: Type'
+search_ctag: word.inspect 'Allname: ["Type"] Name: Type' type:'QualifiedName'
+search_ctag: word.inspect 'Name: DerivedType         kind: class'
+collect: parents.split: 'Type'
+coallate: parents.class 'String'
+coallate: parents.inspect '"Type"'
+search_ctag: word.inspect 'Allname: ["Type"] Name: Type'
+search_ctag: word.inspect 'Allname: ["Type"] Name: Type' type:'QualifiedName'
+search_ctag: word.inspect 'Name: llvm::DerivedType   kind: class'
+search_ctag: word.inspect 'Name: FunctionType        kind: class'
